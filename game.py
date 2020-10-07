@@ -113,3 +113,27 @@ while(decision == ""):
         print(player_items)
 print()
 time.sleep(1)
+
+#            ---section end---           #
+
+print("There is a box where you can get health")
+print("1. Pick it up")
+print("2. Ignore it")
+print()
+decision = ""
+while(decision == ""):
+    decision = input("Pick a number: ")
+    print()
+    if (decision == "1"):
+        print("You got a health boost")
+        player_health = 100
+        print("Your health now:")
+        print(player_health)
+    elif (decision == "2"):
+        print("You can pick up the weapon on the floor")
+        player_items.append("A Bubble Gun")
+        print("Your items now:")
+        print(player_items)
+print()
+time.sleep(1)
+#            ---section end---           #
